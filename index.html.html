@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Una carta para usted 💌</title>
+
+    <style>
+        body {
+            background-color: #FCE4EC;
+            font-family: Georgia, serif;
+            text-align: center;
+            padding: 40px;
+            color: #AD1457;
+        }
+
+        h1 {
+            margin-top: 40px;
+        }
+
+        .sobre {
+            font-size: 120px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .sobre:hover {
+            transform: scale(1.1);
+        }
+
+        button {
+            background-color: #EC407A;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .carta {
+            display: none;
+            background-color: #FFF8F0;
+            border: 2px solid #F48FB1;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 400px;
+            margin: 30px auto;
+            color: #6D3548;
+            text-align: left;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="inicio">
+
+        <h1>Espero le guste, primor💗</h1>
+
+        <div class="sobre" onclick="abrirCarta()">
+            💌
+        </div>
+
+        <p>
+            <button onclick="abrirCarta()">
+                Abrir carta
+            </button>
+        </p>
+
+    </div>
+
+    <div id="carta" class="carta">
+
+        <h2 style="text-align:center;">
+            Una carta para usted 💗
+        </h2>
+
+        <p>
+            Mi dulce corazón:
+        </p>
+
+        <p>
+            No sabe lo bonito que es para mí poder escribirle estas palabras. A veces me pongo a pensar en lo curioso que resulta encontrar a alguien con quien uno desea compartir tantas cosas, alguien que, sin darse cuenta, comienza a ocupar un espacio tan especial en nuestros pensamientos y sentimientos. Y entre todas esas casualidades que tiene la vida, qué bonito que me haya permitido coincidir con usted.
+
+Quisiera que supiera que hay muchísimo cariño detrás de cada palabra que le dedico, incluso de aquellas que quizá no siempre consigo expresar. Me gusta conocerlo, escucharlo, descubrir un poquito más de usted cada día y encontrar en su manera de ser motivos para sonreír. Me gusta que sea usted, con todo lo que eso significa, y que incluso las cosas más sencillas puedan adquirir un significado tan bonito cuando se trata de usted.
+
+No quisiera que alguna vez dudara de lo especial que es para mí. Me gustaría que pudiera sentirse querido sin tener que preguntarse si lo merece, que nunca sintiera la necesidad de esconder sus sentimientos y que supiera que no tiene que ser perfecto para recibir todo este cariño. Yo no espero encontrar a alguien sin defectos, me hace ilusión conocerlo tal como es, con todo lo que lleva dentro.
+
+Hay tantas cosas que me gustaría compartir con usted, tantas conversaciones que quisiera prolongar y tantos momentos que me haría ilusión vivir a su lado. Me gusta pensar que todavía nos quedan muchas cosas por descubrir el uno del otro y que, entre tantas posibilidades que existen en el mundo, podemos seguir eligiendo coincidir.
+
+No sé si alguna vez lograré explicarle por completo lo que significa para mí, pero espero que nunca tenga que adivinarlo. Quiero demostrárselo en mis palabras, en mis detalles y en esa manera tan bonita en la que me nace tenerlo presente.
+
+Gracias por permitirme conocerlo, por compartir conmigo un poquito de su mundo y por hacer que este sentimiento sea algo que atesoro tanto.
+
+Si hay algo que quisiera dejarle escrito para que pueda volver a leerlo cuando lo desee, es que me alegra muchísimo tenerlo en mi vida. Que lo quiero por quien es, que me importa su felicidad y que, entre tantas personas con las que pude haber coincidido, hay algo inmensamente bonito en que haya sido usted.
+
+Lo quiero muchísimo, mi primor. Y espero que nunca le falten razones para sentirse tan querido como yo deseo hacerlo sentir. <3
+        </p>
+
+        <p style="text-align:right;">
+            Con mucho cariño,<br>
+
+            Brisa
+        </p>
+        
+<h3 style="text-align:center; color:#AD1457;">
+    ♡ Canciones que me recuerdan a usted ♡
+</h3>
+
+<p style="text-align:center;">
+    🎵 <a href="https://open.spotify.com/search/Die%20For%20You%20The%20Weeknd">
+    Die For You - The Weeknd</a>
+</p>
+
+<p style="text-align:center;">
+    🎵 <a href="https://open.spotify.com/search/I%20Was%20Made%20For%20Lovin%20You%20KISS">
+    I Was Made for Lovin' You - KISS</a>
+</p>
+
+<p style="text-align:center;">
+    🎵 <a href="https://open.spotify.com/search/Video%20Game%20Lover%20Maejor">
+    Video Game Lover - Maejor</a>
+</p>
+<p style="text-align:center;">
+    🎵 <a href="https://open.spotify.com/search/Labios%20Rotos%20Zo%C3%A9">
+    Labios Rotos - Zoé</a>
+</p>
+
+    </div>
+
+    <script>
+
+        function abrirCarta() {
+
+            document.getElementById("inicio").style.display = "none";
+
+            document.getElementById("carta").style.display = "block";
+
+        }
+
+    </script>
+
+</body>
+</html>
